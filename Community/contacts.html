@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ComDev</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="stylefordonateform.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/logo.png" alt="Logo" />
+        <a href="index.html"></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About us</a>
+        </li>
+        <li><a href="campaigns.html">Campaigns</a></li>
+        <li class="dropdown">
+          <a href="media.html">Media</a>
+        </li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+      <div class="DonateButton">
+        <button><i class="fas fa-dollar-sign"></i> DONATE NOW</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="content-wrapper">
+      <div class="form-container">
+        <h1 class="form_heading">JOIN US TODAY</h1>
+        <form action="#" method="post" target="_blank">
+          <ul class="unordered_form">
+            <li class="form_list">
+              <label for="name" class="form_label">Full Name</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name" />
+            </li>
+
+            <li class="form_list">
+              <label for="password" class="form_label">Password</label>
+              <input type="password" id="password" name="password" required placeholder="8-15 characters" minlength="8"
+                maxlength="15" />
+            </li>
+            <li class="form_list">
+              <label for="email" class="form_label">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="somebody@gmail.com" />
+            </li>
+            <li class="form_list">
+              <label for="phone" class="form_label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Enter your phone Number" />
+            </li>
+
+            <li class="form_list">
+              <label for="home" class="form_label">Home Address</label>
+              <input type="text" id="home" required placeholder="Enter Home Address" />
+            </li>
+            <li class="form_list">
+              <button type="submit" class="form_button">Sign Up <i class="fa-solid fa-arrow-right"></i></button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <img src="image/gallary_10.jpg" id="volunteer" />
+    </div>
+    <hr />
+    <h3 id="contacts_description">
+      "And do not forget to do good and to share with others, for with such
+      sacrifices God is pleased." - Hebrews 13:16 (NIV)
+    </h3>
+    <hr />
+    <h2 id="donation_form_title">Help us Turn Projects into Reality</h2>
+
+    <!--Second from begins here-->
+    <div class="content-wrapper2">
+      <div class="form-container2">
+        <h1 class="form_heading">Donate to Our Cause</h1>
+        <form action="#" method="post" target="_blank">
+          <ul class="unordered_form">
+            <li class="form_list">
+              <label for="name" class="form_label">Full Name</label>
+              <input type="text" id="name" name="name" required placeholder="Enter full name" />
+            </li>
+            <li class="form_list">
+              <label for="email" class="form_label">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="Enter email address" />
+            </li>
+            <li class="form_list"> <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Enter phone number" />
+            </li>
+            <li class="form_list">
+              <label for="amount" class="form_label">Donation Amount ($)</label>
+              <input type="number" id="amount" name="amount" required placeholder="Enter Amount" />
+            </li>
+            <li class="form_list">
+              <label for="payment" class="form_label">Payment Method</label>
+              <select id="payment" name="payment" required>
+                <option value="Mpesa">Mpesa</option>
+                <option value="bank">Bank Transfer</option>
+                <option value="non-monetary">Non-monetary</option>
+              </select>
+            </li>
+            <li class="form_list">
+              <button type="submit" class="form_button">Donate Now <i class="fa-solid fa-arrow-right"></i></button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <img src="image/donate.jpg" id="volunteer" />
+    </div>
+
+    <!--Give us feedback or Propose a project-->
+    <hr />
+    <h3 id="contacts_description">
+      We value your feedback as our Number one partner. Have any project in
+      mind or feedback?. Feel free to contact us😊
+    </h3>
+    <hr />
+    <h2 id="donation_form_title">Feedback and Or Project proposal</h2>
+
+    <!--Third from begins here-->
+    <div class="content-wrapper2">
+      <div class="form-container2">
+        <h1 class="form_heading">Feedback and Project Proposal</h1>
+        <form action="#" method="post" target="_blank">
+          <ul class="unordered_form">
+            <li class="form_list">
+              <label for="name" class="form_label">Full Name</label>
+              <input type="text" id="name" name="name" required placeholder="Enter Full name" />
+            </li>
+            <li class="form_list">
+              <label for="email" class="form_label">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="Somebody@gmail.com" />
+            </li>
+            <li class="form_list">
+              <label for="phone" class="form_label">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Enter your Phone Number" />
+            </li>
+            <li class="form_list">
+              <label for="comment" class="form_label">Comment:</label>
+              <textarea id="comment" rows="10" cols="100"
+                placeholder="Feedback or Propose a Project"></textarea><br /><br />
+            </li>
+            <li class="form_list">
+              <button type="submit" class="form_button">Send Message <i class="fa-solid fa-arrow-right"></i></button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <img src="image/gallary_10.jpg" id="volunteer" />
+    </div>
+    <!--Contact Details-->
+    <div class="credits1">
+      <div class="credits1_description">
+        <i class="fa-solid fa-phone fa-xl"></i>
+        <div>
+          <p>+254746241238</p>
+          <p>+25418276005</p>
+        </div>
+      </div>
+
+      <div class="credits1_description">
+        <i class="fa-solid fa-envelope fa-xl"></i>
+        <div>
+          <p>comDevelopers@gmail.com</p>
+
+        </div>
+      </div>
+
+      <div class="credits1_description">
+        <i class="fa-solid fa-location-dot fa-xl"></i>
+        <div>
+          <p>Nairobi West Sumba Road</p>
+          <p>P.O BOX 16192-00610</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <section>
+      <article>
+        <h2>Quick Links</h2>
+        <br />
+        <a href="index.html">Home</a><br />
+        <a href="about.html">About us</a><br />
+        <a href="campaigns.html">Campaigns</a><br />
+        <a href="media.html">Media</a><br />
+        <a href="contacts.html">Contacts</a><br />
+      </article>
+      <article>
+        <h2>Contact us</h2>
+        <br />
+        <p>+254746241238</p>
+        <p>+254718276005</p>
+        <p>comDevelopers@gmail.com</p>
+
+      </article>
+      <article>
+        <h2>Newsletter</h2>
+        <br />
+        <p>Get latest news & updates</p>
+        <input type="email" placeholder="Enter your email" class="newsletter"><br>
+        <button class="newsletter_button">Subscribe</button>
+
+      </article>
+      <article class="socials">
+        <h2>Social Media</h2>
+        <br />
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+        <a href="https://www.youtube.com" target="_blank">
+          <i class="fa-brands fa-youtube fa-lg"> </i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+        <a href="https://ke.linkedin.com/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://www.tiktok.com" target="_blank">
+          <i class="fa-brands fa-tiktok fa-lg"></i>
+        </a>
+      </article>
+    </section>
+    <p id="credit">©️2024 - ComDev.All rights reserved</p>
+    <p id="credit">Made with ❤️ by ComDeveloper</p>
+  </footer>
+</body>
+
+</html>
